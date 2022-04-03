@@ -1,5 +1,10 @@
 import BigNumber from 'bignumber.js'
 import { ethers } from 'ethers'
+import Cookies from 'universal-cookie'
+import rot13 from './encode'
+import { isAddress } from './web3'
+
+const cookies = new Cookies()
 
 export const approve = async (lpContract, masterChefContract, account) => {
   return lpContract.methods
