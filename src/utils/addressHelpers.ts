@@ -12,11 +12,14 @@ export const getMulticallAddress = () => {
   return addresses.mulltiCall[chainId]
 }
 export const getWbnbAddress = () => {
-  return addresses.wbnb[chainId]
+  return addresses.wavax[chainId]
 }
 export const getLotteryAddress = () => {
   return addresses.lottery[chainId]
 }
 export const getLotteryTicketAddress = () => {
   return addresses.lotteryNFT[chainId]
+}
+export const getReferralAddress = () => {
+  return addresses.referral[chainId]
 }

@@ -20,13 +20,15 @@ export interface Ifo {
 }
 
 export enum QuoteToken {
-  'BEE' = 'BEE',
   'BNB' = 'BNB',
-  'CAKE' = 'CAKE',
   'SYRUP' = 'SYRUP',
   'BUSD' = 'BUSD',
-  'TWT' = 'TWT',
   'UST' = 'UST',
+  'USDT' = 'USDT',
+  'USDC' = 'USDC',
+  'CAKE' = 'WEAVE',
+  'WAVAX' = 'WAVAX',
+  'JOE' = 'JOE',
 }
 
 export enum PoolCategory {
@@ -36,8 +38,8 @@ export enum PoolCategory {
 }
 
 export interface Address {
+  43114: string
   97?: string
-  56: string
 }
 
 export interface FarmConfig {
@@ -84,4 +86,9 @@ export type Nft = {
   blurImage: string
   sortOrder: number
   bunnyId: number
+}
+
+export interface ReferralConfig {
+  totalReferrals: number
+  totalReferralCommissions: number
 }
