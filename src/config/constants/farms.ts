@@ -21,86 +21,6 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'WEAVE-USDC.e LP',
-    lpAddresses: {
-      43114: '0x30EfC95a11d6ed30184fb81C124C5d8E7Ef490f3',
-      97: '',
-    },
-    tokenSymbol: 'WEAVE',
-    tokenAddresses: {
-      43114: '0xF66279e277b7Ad640081272080E77c496edb1C1f',
-      97: '',
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-  {
-    pid: 2,
-    risk: 1,
-    lpSymbol: 'WAVAX-USDC.e LP',
-    lpAddresses: {
-      43114: '0xA389f9430876455C36478DeEa9769B7Ca4E3DDB1',
-      97: '',
-    },
-    tokenSymbol: 'WAVAX',
-    tokenAddresses: {
-      43114: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
-      97: '',
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-  {
-    pid: 3,
-    risk: 3,
-    lpSymbol: 'WAVAX-USDT.e LP',
-    lpAddresses: {
-      43114: '0xed8cbd9f0ce3c6986b22002f03c6475ceb7a6256',
-      97: '',
-    },
-    tokenSymbol: 'WAVAX',
-    tokenAddresses: {
-      43114: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
-      97: '',
-    },
-    quoteTokenSymbol: QuoteToken.USDT,
-    quoteTokenAdresses: contracts.usdt,
-  },
-  {
-    pid: 4,
-    risk: 1,
-    lpSymbol: 'WETH.e-WAVAX LP',
-    lpAddresses: {
-      43114: '0xfe15c2695f1f920da45c30aae47d11de51007af9',
-      97: '',
-    },
-    tokenSymbol: 'WETH.e',
-    tokenAddresses: {
-      43114: '0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
-      97: '',
-    },
-    quoteTokenSymbol: QuoteToken.WAVAX,
-    quoteTokenAdresses: contracts.wavax,
-  },
-  {
-    pid: 5,
-    risk: 4,
-    lpSymbol: 'WBTC.e-WAVAX LP',
-    lpAddresses: {
-      43114: '0xd5a37dc5c9a396a03dd1136fc76a1a02b1c88ffa',
-      97: '',
-    },
-    tokenSymbol: 'WBTC.e',
-    tokenAddresses: {
-      43114: '0x50b7545627a5162F82A992c33b87aDc75187B218',
-      97: '',
-    },
-    quoteTokenSymbol: QuoteToken.WAVAX,
-    quoteTokenAdresses: contracts.wavax,
-  },
-  {
-    pid: 6,
-    risk: 5,
     isTokenOnly: true,
     lpSymbol: 'WEAVE',
     lpAddresses: {
@@ -116,7 +36,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wavax,
   },
   {
-    pid: 7,
+    pid: 2,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'WAVAX',
@@ -133,7 +53,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdc,
   },
   {
-    pid: 8,
+    pid: 3,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'USDC.e',
@@ -151,7 +71,7 @@ const farms: FarmConfig[] = [
   },
 
   {
-    pid: 9,
+    pid: 4,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'USDT.e',
@@ -168,7 +88,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wavax,
   },
   {
-    pid: 10,
+    pid: 5,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'DAI',
@@ -185,7 +105,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wavax,
   },
   {
-    pid: 11,
+    pid: 6,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'MIM',
@@ -202,7 +122,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wavax,
   },
   {
-    pid: 12,
+    pid: 7,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'JOE',
@@ -219,7 +139,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wavax,
   },
   {
-    pid: 14,
+    pid: 8,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'WBTC.e',
@@ -236,7 +156,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wavax,
   },
   {
-    pid: 13,
+    pid: 9,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'WETH.e',
